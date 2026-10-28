@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Два канала в Telegram</title>
+<style>
+:root{--bg:#f6f5fb;--card:#ffffff;--text:#1b1b2f;--muted:#5d5d78;--accent:#6c4cf1;--accent2:#ff7a45;--border:#e4e2f0;--btn-text:#ffffff;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);color-scheme:light}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#12111c;--card:#1c1b2b;--text:#f1f0fa;--muted:#a3a2bd;--accent:#8f78ff;--accent2:#ff9266;--border:#2e2c45;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#12111c;--card:#1c1b2b;--text:#f1f0fa;--muted:#a3a2bd;--accent:#8f78ff;--accent2:#ff9266;--border:#2e2c45;color-scheme:dark}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;line-height:1.55}
+.wrap{max-width:900px;margin:0 auto;padding:40px 20px 56px}
+header{text-align:center;padding:24px 0 36px}
+.badge{display:inline-block;padding:6px 14px;border-radius:999px;background:var(--card);border:1px solid var(--border);color:var(--muted);font-size:14px}
+h1{font-size:clamp(30px,6vw,48px);line-height:1.15;margin:18px 0 12px;letter-spacing:-.02em}
+h1 span{background:linear-gradient(90deg,var(--accent),var(--accent2));-webkit-background-clip:text;background-clip:text;color:transparent}
+.lead{color:var(--muted);font-size:18px;max-width:560px;margin:0 auto}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px}
+.card{background:var(--card);border:1px solid var(--border);border-radius:20px;padding:28px;display:flex;flex-direction:column;gap:12px}
+.icon{font-size:42px;line-height:1}
+.card h2{margin:0;font-size:24px}
+.handle{color:var(--accent);font-weight:600;font-size:15px}
+.card p{margin:0;color:var(--muted);flex:1}
+.btn{display:block;text-align:center;text-decoration:none;background:linear-gradient(90deg,var(--accent),var(--accent2));color:var(--btn-text);font-weight:600;padding:14px 18px;border-radius:14px;margin-top:8px}
+.btn:hover{opacity:.9}
+.steps{margin-top:36px;background:var(--card);border:1px solid var(--border);border-radius:20px;padding:24px 28px}
+.steps h3{margin:0 0 8px}
+.steps ol{margin:0;padding-left:20px;color:var(--muted)}
+footer{text-align:center;color:var(--muted);font-size:14px;margin-top:32px}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+<span class="badge">Telegram-каналы</span>
+<h1>Присоединяйся: <span>два канала</span> ждут тебя</h1>
+<p class="lead">Заходи, подписывайся и будь в курсе новых публикаций. Это быстро: достаточно одного нажатия.</p>
+</header>
+
+<div class="grid">
+<section class="card">
+<div class="icon">👻</div>
+<h2>K1LL3R</h2>
+<div class="handle">@K1LL3Rqq</div>
+<p>Канал автора K1LL3R. Подписывайся, чтобы видеть свежие посты первым и быть частью растущего сообщества.</p>
+<a class="btn" href="https://t.me/K1LL3Rqq" target="_blank" rel="noopener">Открыть канал</a>
+</section>
+
+<section class="card">
+<div class="icon">🧀</div>
+<h2>Сырники</h2>
+<div class="handle">@CbIPHbIKN</div>
+<p>Уютный канал «Сырники». Присоединяйся к самому началу и следи за обновлениями вместе с нами.</p>
+<a class="btn" href="https://t.me/CbIPHbIKN" target="_blank" rel="noopener">Открыть канал</a>
+</section>
+</div>
+
+<section class="steps">
+<h3>Как подписаться</h3>
+<ol>
+<li>Нажми кнопку «Открыть канал».</li>
+<li>Откроется Telegram. Если его нет, установи приложение с telegram.org.</li>
+<li>Нажми «Подписаться», и готово.</li>
+</ol>
+</section>
+
+<footer>Каналы растут, и каждый новый подписчик важен. Спасибо, что заглянул!</footer>
+</div>
+</body>
+</html>
